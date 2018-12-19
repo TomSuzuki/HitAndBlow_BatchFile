@@ -19,7 +19,11 @@ set /a cnt=0
 :Game
 set /a cnt=%cnt%+1
 set /p input="Enter answer [%cnt%]: "
-if %input% == 0000 ( exit )
+if %input% == 0000 (
+	echo ans=%ans%
+	pause
+	exit
+)
 if %input% == %ans% ( goto End )
 set /a eat=0
 set /a byte=0
