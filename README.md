@@ -1,5 +1,5 @@
-# Number0n_BatchFile
-Numer0n（数字当てゲーム）です。  
+# HitAndBlow_BatchFile
+Hit&Blow（数字当てゲーム）です。  
 答えは４桁の数字で０以外から始まり同じ数字は１度だけ使われます。  
 0000で強制終了します。  
 EAT - 桁一致  
